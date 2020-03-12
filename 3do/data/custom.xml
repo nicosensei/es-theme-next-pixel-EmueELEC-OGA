@@ -1,0 +1,13 @@
+﻿<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<view name="basic, detailed">
+	
+		<image name="controller" extra="true">
+			<pos>.976 .885</pos>
+		</image>
+		
+	</view>
+	
+</theme>

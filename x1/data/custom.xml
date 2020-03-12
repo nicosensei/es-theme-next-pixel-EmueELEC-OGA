@@ -1,0 +1,13 @@
+﻿<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<view name="basic, detailed">
+	
+		<image name="controller" extra="true">
+			<maxSize>.12 .1</maxSize>
+		</image>
+		
+	</view>
+	
+</theme>
