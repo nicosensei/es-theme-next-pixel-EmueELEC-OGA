@@ -38,7 +38,7 @@
 		</image>
 
 		<image name="console" extra="true">
-			<pos>.98 .82</pos>
+			<pos>.97 .82</pos>
 			<maxSize>.20 .20</maxSize>
 			<origin>1 .5</origin>
 		</image>
