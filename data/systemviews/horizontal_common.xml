@@ -37,7 +37,7 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<path>./../../$system/background.jpg</path>
+			<path>./../../$system/background.png</path>
 		</image>
 
 		<image name="console" extra="true">
