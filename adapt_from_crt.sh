@@ -12,5 +12,20 @@ find data/arts -name "game_*.svg" | while read f; do inkscape -z -e "$f".png -w 
 rename 's/\.svg\.png/.png/' data/arts/*.svg.png
 sed -i 's/\.svg/.png/' data/gamelistviews/common_info.xml
 
-sed -i 's/<sound/<!--sound/' theme.xml 
+find . -name "logo.svg" | while read f; do inkscape -z -e "$f".png -w 512 $f; done
+find . -name "logo.svg.png" | while read f; do rename 's/\.svg\.png/.png/' $f; done
+
+find . -name "logo_right.svg" | while read f; do inkscape -z -e "$f".png -w 512 $f; done
+find . -name "logo_right.svg.png" | while read f; do rename 's/\.svg\.png/.png/' $f; done
+
+find . -name "controller.svg" | while read f; do inkscape -z -e "$f".png -w 256 $f; done
+find . -name "controller.svg.png" | while read f; do rename 's/\.svg\.png/.png/' $f; done
+
+find . -name "console.svg" | while read f; do inkscape -z -e "$f".png -w 256 $f; done
+find . -name "console.svg.png" | while read f; do rename 's/\.svg\.png/.png/' $f; done
+
+find . -name "icon_*.svg" | while read f; do inkscape -z -e "$f".png -w 64 $f; done
+find . -name "icon_*.svg.png" | while read f; do rename 's/\.svg\.png/.png/' $f; done
+
+sed -i 's/<sound/<!--sound/' theme.xml
 sed -i 's#</sound>#</sound-->#' theme.xml

@@ -58,23 +58,23 @@
 		<image name="background" extra="true">
 			<origin>1 .5</origin>
 			<pos>1 .5</pos>
-			<path>./../../$system/background_wheel.jpg</path>
+			<path>./../../$system/background_wheel.png</path>
 		</image>
 
 		<image name="logo">
-			<path>./../../$system/data/logo_right.svg</path>
+			<path>./../../$system/data/logo_right.png</path>
 		</image> 
 
 		<image name="logo" region="eu">
-			<path>./../../$system/data/eu/logo_right.svg</path>
+			<path>./../../$system/data/eu/logo_right.png</path>
 		</image> 
 
 		<image name="logo" region="us">
-			<path>./../../$system/data/us/logo_right.svg</path>
+			<path>./../../$system/data/us/logo_right.png</path>
 		</image> 
 
 		<image name="logo" region="jp">
-			<path>./../../$system/data/jp/logo_right.svg</path>
+			<path>./../../$system/data/jp/logo_right.png</path>
 		</image>
 
 		<image name="console" extra="true">

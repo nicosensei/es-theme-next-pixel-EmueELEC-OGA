@@ -1,7 +1,7 @@
 <theme>
 
 	<formatVersion>4</formatVersion>
-	<include>./common.xml</include>	
+	<include>./common.xml</include>
 
 	<feature supported="carousel">
 

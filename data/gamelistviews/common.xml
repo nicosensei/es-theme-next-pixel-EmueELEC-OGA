@@ -8,42 +8,42 @@
 			<maxSize>2 1</maxSize>
 			<pos>1 0</pos>
 			<origin>1 0</origin>
-			<path>./../../$system/background_gamelist_right.jpg</path>
+			<path>./../../$system/background_gamelist_right.png</path>
 			<zIndex>0</zIndex>
 		</image>
 
 		<image name="logo">
-			<path>./../../$system/data/logo_right.svg</path>
+			<path>./../../$system/data/logo_right.png</path>
 			<pos>.985 .98</pos>
 			<maxSize>.4 1</maxSize>
 			<origin>1 1</origin>
 			<zIndex>5</zIndex>
 		</image> 
 		<image name="logo" region="eu">
-			<path>./../../$system/data/eu/logo_right.svg</path>
+			<path>./../../$system/data/eu/logo_right.png</path>
 		</image> 
 		<image name="logo" region="us">
-			<path>./../../$system/data/us/logo_right.svg</path>
+			<path>./../../$system/data/us/logo_right.png</path>
 		</image> 
 		<image name="logo" region="jp">
-			<path>./../../$system/data/jp/logo_right.svg</path>
+			<path>./../../$system/data/jp/logo_right.png</path>
 		</image>
 
 		<image name="controller" extra="true">
-			<path>./../../$system/data/controller.svg</path>
+			<path>./../../$system/data/controller.png</path>
 			<pos>.985 .905</pos>
 			<origin>1 1</origin>
 			<maxSize>.1 1</maxSize>
 			<zIndex>6</zIndex>
 		</image>
 		<image name="controller" extra="true" region="eu">
-			<path>./../../$system/data/eu/controller.svg</path>
+			<path>./../../$system/data/eu/controller.png</path>
 		</image>
 		<image name="controller" extra="true" region="jp">
-			<path>./../../$system/data/jp/controller.svg</path>
+			<path>./../../$system/data/jp/controller.png</path>
 		</image>
 		<image name="controller" extra="true" region="us">
-			<path>./../../$system/data/us/controller.svg</path>
+			<path>./../../$system/data/us/controller.png</path>
 		</image>
 
 		<image name="gamelist_background" extra="true">
@@ -141,8 +141,8 @@
 		</video>
 
 		<rating name="md_rating">
-			<filledPath>./../../$system/icon_filled.svg</filledPath>
-			<unfilledPath>./../../$system/icon_empty.svg</unfilledPath>
+			<filledPath>./../../$system/icon_filled.png</filledPath>
+			<unfilledPath>./../../$system/icon_empty.png</unfilledPath>
 		</rating>
 
 		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_publisher, md_lbl_developer, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
@@ -166,20 +166,20 @@
 	<view name="basic">
 
 		<image name="consolegame" extra="true">
-			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/consolegame.svg</path>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/consolegame.png</path>
 			<pos>.02 .91</pos>
 			<maxSize>1 .2</maxSize>
 			<origin>0 1</origin>
 			<zIndex>50</zIndex>
 		</image>
 		<image name="consolegame" extra="true" region="eu">
-			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/eu/consolegame.svg</path>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/eu/consolegame.png</path>
 		</image>
 		<image name="consolegame" extra="true" region="jp">
-			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/jp/consolegame.svg</path>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/jp/consolegame.png</path>
 		</image>
 		<image name="consolegame" extra="true" region="us">
-			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/us/consolegame.svg</path>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/us/consolegame.png</path>
 		</image>
 
 	</view>
