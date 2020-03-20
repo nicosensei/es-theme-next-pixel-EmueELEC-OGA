@@ -1,0 +1,17 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<view name="detailed">
+		
+		<video name="md_video">
+			<size>.26970 .31804</size>
+		</video>
+		
+		<image name="shadow" extra="true">
+			<size>.27487 .32498</size>
+		</image>
+		
+	</view>
+	
+</theme>
