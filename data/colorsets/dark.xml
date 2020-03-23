@@ -1,7 +1,7 @@
 <theme>
 
 	<formatVersion>4</formatVersion>
-	<include>./common.xml</include>	
+	<include>./common.xml</include>
 
 	<feature supported="carousel">
 
@@ -48,10 +48,9 @@
 		</image>
 
 		<textlist name="gamelist">
-			<selectorColor>222222</selectorColor>
-			<selectedColor>ffffff</selectedColor>
-			<primaryColor>ffffff</primaryColor>
-			<secondaryColor>ffffff</secondaryColor>
+			<selectedColor>38a5c9</selectedColor>
+			<primaryColor>444444</primaryColor>
+			<secondaryColor>888888</secondaryColor>
 		</textlist>
 
 		<image name="gamelist_border" extra="true">

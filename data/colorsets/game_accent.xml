@@ -1,8 +1,8 @@
 <theme>
 
 	<formatVersion>4</formatVersion>
-	<include>./common.xml</include>	
-	<include>./../../$system/color_accent.xml</include>	
+	<include>./common.xml</include>
+	<include>./../../$system/color_accent.xml</include>
 
 	<feature supported="carousel">
 
@@ -23,9 +23,9 @@
 		<image name="gamelist_background" extra="true" />
 
 		<textlist name="gamelist">
-			<selectedColor>ffffff</selectedColor>
-			<primaryColor>ffffff</primaryColor>
-			<secondaryColor>ffffff</secondaryColor>
+			<selectedColor>38a5c9</selectedColor>
+			<primaryColor>444444</primaryColor>
+			<secondaryColor>888888</secondaryColor>
 		</textlist>
 
 		<image name="gamelist_border" extra="true" />

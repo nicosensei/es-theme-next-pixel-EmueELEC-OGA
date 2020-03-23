@@ -1,6 +1,6 @@
 <theme>
 
-	<formatVersion>4</formatVersion>	
+	<formatVersion>4</formatVersion>
 	<include>./common.xml</include>
 
 	<feature supported="carousel">
@@ -10,7 +10,7 @@
 			<image name="system_carousel_background" extra="true">
 				<size>1 .305</size>
 				<origin>0 1</origin>
-				<pos>0 .613</pos>
+				<pos>0 .614</pos>
 				<path>./../arts/system_carousel_horizontal_background.png</path>
 			</image>
 
@@ -25,9 +25,9 @@
 			</image>
 
 			<text name="systemInfo">
-				<pos>.5 .626</pos>
+				<pos>.5 .628</pos>
 				<fontSize>.021</fontSize>
-				<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
+				<fontPath>./../data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
 			</text>
 
 		</view>
@@ -37,11 +37,11 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<path>./../../$system/background.jpg</path>
+			<path>./../../$system/background.png</path>
 		</image>
 
 		<image name="console" extra="true">
-			<pos>.98 .82</pos>
+			<pos>.97 .82</pos>
 			<maxSize>.2 .2</maxSize>
 			<origin>1 .5</origin>
 		</image>
