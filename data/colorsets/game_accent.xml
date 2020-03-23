@@ -23,9 +23,9 @@
 		<image name="gamelist_background" extra="true" />
 
 		<textlist name="gamelist">
-			<selectedColor>ffffff</selectedColor>
-			<primaryColor>222222</primaryColor>
-			<secondaryColor>222222</secondaryColor>
+			<selectedColor>38a5c9</selectedColor>
+			<primaryColor>444444</primaryColor>
+			<secondaryColor>888888</secondaryColor>
 		</textlist>
 
 		<image name="gamelist_border" extra="true" />

@@ -1,6 +1,6 @@
 <theme>
 
-	<formatVersion>4</formatVersion>	
+	<formatVersion>4</formatVersion>
 
 	<view name="basic, detailed">
 
@@ -18,13 +18,13 @@
 			<maxSize>.4 1</maxSize>
 			<origin>1 1</origin>
 			<zIndex>5</zIndex>
-		</image> 
+		</image>
 		<image name="logo" region="eu">
 			<path>./../../$system/data/eu/logo_right.png</path>
-		</image> 
+		</image>
 		<image name="logo" region="us">
 			<path>./../../$system/data/us/logo_right.png</path>
-		</image> 
+		</image>
 		<image name="logo" region="jp">
 			<path>./../../$system/data/jp/logo_right.png</path>
 		</image>
@@ -55,13 +55,13 @@
 		</image>
 
 		<textlist name="gamelist">
-			<pos>.64 0</pos> 
+			<pos>.64 0</pos>
 			<size>.48 1</size>
 			<alignment>left</alignment>
 			<horizontalMargin>.12</horizontalMargin>
 			<selectorImagePath>./../arts/gamelist_textlist_selector_background.png</selectorImagePath>
 			<fontSize>.026</fontSize>
-			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
+			<fontPath>./../data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
 			<zIndex>20</zIndex>
 		</textlist>
 
@@ -83,7 +83,7 @@
 
 		<text name="md_folder_name">
             <forceUppercase>1</forceUppercase>
-            <fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
+            <fontPath>./../data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
             <fontSize>.03</fontSize>
             <size>0 0</size>
             <pos>.31429 .9</pos>
@@ -97,7 +97,7 @@
 			<zIndex>45</zIndex>
 			<origin>.5 .5</origin>
         </image>
-        
+
         <image name="md_folder_image_0">
             <pos>.14429 .2</pos>
         </image>
@@ -125,7 +125,7 @@
 		<image name="md_folder_image_8">
             <pos>.48429 .7</pos>
         </image>
-		
+
 	</view>
 
 	<view name="detailed">
@@ -151,13 +151,13 @@
 
 		<text name="md_rating, md_publisher, md_developer, md_genre, md_players, md_playcount, md_favorite, md_description">
 			<pos>2 2</pos>
-			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
+			<fontPath>./../data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
 			<fontSize>.025</fontSize>
 		</text>
 
 		<datetime name="md_releasedate, md_lastplayed">
 			<pos>2 2</pos>
-			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
+			<fontPath>./../data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
 			<fontSize>.025</fontSize>
 		</datetime>
 
@@ -166,20 +166,20 @@
 	<view name="basic">
 
 		<image name="consolegame" extra="true">
-			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/consolegame.png</path>
+			<path>./../$system/data/consolegame.png</path>
 			<pos>.02 .91</pos>
 			<maxSize>1 .2</maxSize>
 			<origin>0 1</origin>
 			<zIndex>50</zIndex>
 		</image>
 		<image name="consolegame" extra="true" region="eu">
-			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/eu/consolegame.png</path>
+			<path>./../$system/data/eu/consolegame.png</path>
 		</image>
 		<image name="consolegame" extra="true" region="jp">
-			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/jp/consolegame.png</path>
+			<path>./../$system/data/jp/consolegame.png</path>
 		</image>
 		<image name="consolegame" extra="true" region="us">
-			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/us/consolegame.png</path>
+			<path>./../$system/data/us/consolegame.png</path>
 		</image>
 
 	</view>

@@ -3,7 +3,7 @@
 	<formatVersion>4</formatVersion>
 
 	<view name="system">
-	
+
 		<text name="info1" extra="true">
 			<text>Manufacturer : Nintendo</text>
 		</text>
@@ -34,11 +34,11 @@
 		<text name="info10" extra="true">
 			<text>Cart Size : 256kB - 6MB</text>
 		</text>
-		
+
 	</view>
-	
+
 	<view name="basic, detailed">
-	
+
 		<image name="controller" extra="true" region="eu">
 			<maxSize>.095 1</maxSize>
 		</image>
@@ -48,7 +48,7 @@
 		<image name="controller" extra="true" region="jp">
 			<pos>.98 .91</pos>
 		</image>
-		
+
 	</view>
-	
+
 </theme>

@@ -36,9 +36,8 @@
 		</image>
 
 		<textlist name="gamelist">
-			<selectorColor>ffffff</selectorColor>
-			<selectedColor>222222</selectedColor>
-			<primaryColor>222222</primaryColor>
+			<selectedColor>38a5c9</selectedColor>
+			<primaryColor>666666</primaryColor>
 			<secondaryColor>222222</secondaryColor>
 		</textlist>
 
