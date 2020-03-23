@@ -1,0 +1,41 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<feature supported="carousel">
+
+		<view name="system">
+
+			<image name="system_carousel_background" extra="true">
+				<path>./../../_inc/system_carousel_vertical_wheel_background.png</path>
+			</image>
+
+		</view>
+
+	</feature>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<path>./../../_inc/background_wheel.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./../../_inc/_inc/logo_right.png</path>
+		</image>
+
+		<image name="logo" region="eu">
+			<path>./../../_inc/_inc/logo_right.png</path>
+		</image>
+
+		<image name="logo" region="us">
+			<path>./../../_inc/_inc/logo_right.png</path>
+		</image>
+
+		<image name="logo" region="jp">
+			<path>./../../_inc/_inc/logo_right.png</path>
+		</image>
+
+	</view>
+
+</theme>

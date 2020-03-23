@@ -1,13 +1,13 @@
 <theme>
 
 	<formatVersion>4</formatVersion>
-	<include>./data/config.xml</include>
-	<include>./$system/data/custom.xml</include>
+	<include>./_config/config.xml</include>
+	<include>./$system/_config/custom.xml</include>
 
 	<view name="menu, system">
 
 		<helpsystem name="help">
-			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/steelfishrg.ttf</fontPath>
+			<fontPath>./_inc/arts/steelfishrg.ttf</fontPath>
 			<fontSize>.03</fontSize>
 		</helpsystem>
 
@@ -16,7 +16,7 @@
 	<view name="basic, detailed">
 
 		<helpsystem name="help">
-			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/steelfishrg.ttf</fontPath>
+			<fontPath>./_inc/arts/steelfishrg.ttf</fontPath>
 			<fontSize>.025</fontSize>
 		</helpsystem>
 

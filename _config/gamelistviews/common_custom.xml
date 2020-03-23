@@ -1,0 +1,52 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<view name="basic, detailed">
+
+		<image name="background_right" extra="true">
+			<path>./../../$system/background_gamelist_right.png</path>
+		</image>
+
+		<image name="logo">
+			<path>./../../$system/logo_right.png</path>
+		</image>
+		<image name="logo" region="eu">
+			<path>./../../$system/logo_right_eu.png</path>
+		</image>
+		<image name="logo" region="us">
+			<path>./../../$system/logo_right_us.png</path>
+		</image>
+		<image name="logo" region="jp">
+			<path>./../../$system/logo_right_jp.png</path>
+		</image>
+
+		<image name="controller" extra="true">
+			<path>./../../$system/controller.png</path>
+		</image>
+		<image name="controller" extra="true" region="eu">
+			<path>./../../$system/controller_eu.png</path>
+		</image>
+		<image name="controller" extra="true" region="jp">
+			<path>./../../$system/controller_jp.png</path>
+		</image>
+		<image name="controller" extra="true" region="us">
+			<path>./../../$system/controller_us.png</path>
+		</image>
+
+		<image name="background" extra="true">
+			<path>./../../$system/background_gamelist_left.png</path>
+		</image>
+
+	</view>
+
+	<view name="detailed">
+
+		<rating name="md_rating">
+			<filledPath>./../../$system/icon_filled.png</filledPath>
+			<unfilledPath>./../../$system/icon_empty.png</unfilledPath>
+		</rating>
+
+	</view>
+
+</theme>
