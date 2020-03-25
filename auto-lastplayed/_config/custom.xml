@@ -5,108 +5,89 @@
 	<view name="system">
 
 		<text name="info1" extra="true">
-			<text></text>
+			<text>Find the history of games you recently played.</text>
 		</text>
 		<text name="info2" extra="true">
-			<text></text>
+			<text>Every time you play a game,</text>
 		</text>
 		<text name="info3" extra="true">
-			<text></text>
+			<text>you will find it at the top of this list.</text>
 		</text>
 		<text name="info4" extra="true">
-			<text>READY FOR A RANDOM GAME ?</text>
+			<text>Enjoy !</text>
 		</text>
-		<text name="info5" extra="true">
-			<text></text>
-		</text>
-		<text name="info6" extra="true">
-			<text></text>
-		</text>
-		<text name="info7" extra="true">
-			<text></text>
-		</text>
-		<text name="info8" extra="true">
-			<text></text>
-		</text>
-		<text name="info9" extra="true">
-			<text></text>
-		</text>
-		<text name="info10" extra="true">
-			<text></text>
-		</text>
+
+		<!--image name="background" extra="true">
+			<path>./../background_wheel.png</path>
+		</image-->
+
+		<image name="logo">
+			<path>./../_inc/logo_right.png</path>
+		</image>
+
+		<image name="logo" region="eu">
+			<path>./../_inc/logo_right.png</path>
+		</image>
+
+		<image name="logo" region="us">
+			<path>./../_inc/logo_right.png</path>
+		</image>
+
+		<image name="logo" region="jp">
+			<path>./../_inc/logo_right.png</path>
+		</image>
 
 	</view>
 
 	<view name="basic, detailed">
 
 		<image name="controller" extra="true">
-			<pos>2 2</pos>
+			<pos>.985 .905</pos>
 		</image>
+
+		<!--image name="background_right" extra="true">
+			<path>./../background_gamelist_right.png</path>
+		</image-->
+
+		<image name="logo">
+			<path>./../logo_right.png</path>
+		</image>
+		<image name="logo" region="eu">
+			<path>./../logo_right.png</path>
+		</image>
+		<image name="logo" region="us">
+			<path>./../logo_right.png</path>
+		</image>
+		<image name="logo" region="jp">
+			<path>./../logo_right.png</path>
+		</image>
+
+		<!--image name="controller" extra="true">
+			<path>./../controller.png</path>
+		</image>
+		<image name="controller" extra="true" region="eu">
+			<path>./../controller.png</path>
+		</image>
+		<image name="controller" extra="true" region="jp">
+			<path>./../controller.png</path>
+		</image>
+		<image name="controller" extra="true" region="us">
+			<path>./../controller.png</path>
+		</image-->
+
+		<!--image name="background" extra="true">
+			<path>./../background_gamelist_left.png</path>
+		</image-->
 
 	</view>
 
-	<view name="detailed">
+	<!--view name="detailed">
 
 		<rating name="md_rating">
-			<pos>2 2</pos>
+			<filledPath>./../icon_filled.png</filledPath>
+			<unfilledPath>./../icon_empty.png</unfilledPath>
 		</rating>
 
-		<image name="release_date_logo" extra="true">
-			<pos>2 2</pos>
-		</image>
-
-		<datetime name="md_releasedate">
-			<pos>2 2</pos>
-		</datetime>
-
-		<image name="publisher_logo" extra="true">
-			<pos>2 2</pos>
-		</image>
-
-		<text name="md_publisher">
-			<pos>2 2</pos>
-		</text>
-
-		<image name="developer_logo" extra="true">
-			<pos>2 2</pos>
-		</image>
-
-		<text name="md_developer">
-			<pos>2 2</pos>
-		</text>
-
-		<image name="genre_logo" extra="true">
-			<pos>2 2</pos>
-		</image>
-
-		<text name="md_genre">
-			<pos>2 2</pos>
-		</text>
-
-		<image name="players_logo" extra="true">
-			<pos>2 2</pos>
-		</image>
-
-		<text name="md_players">
-			<pos>2 2</pos>
-		</text>
-
-		<image name="lastplayed_logo" extra="true">
-			<pos>2 2</pos>
-		</image>
-
-		<datetime name="md_lastplayed">
-			<pos>2 2</pos>
-		</datetime>
-
-		<image name="playcount_logo" extra="true">
-			<pos>2 2</pos>
-		</image>
-
-		<text name="md_playcount">
-			<pos>2 2</pos>
-		</text>
-
-	</view>
+	</view-->
 
 </theme>

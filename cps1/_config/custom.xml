@@ -3,49 +3,107 @@
 	<formatVersion>4</formatVersion>
 
 	<view name="system">
-	
+
 		<text name="info1" extra="true">
-			<text>An arcade game or coin-op game is a coin-operated</text>
+			<text>Manufacturer : Capcom</text>
 		</text>
 		<text name="info2" extra="true">
-			<text>entertainment machine. Most arcade games are video</text>
+			<text>Year of Release : ???</text>
 		</text>
 		<text name="info3" extra="true">
-			<text>games, pinball machines, electro-mechanical games,</text>
+			<text>...</text>
 		</text>
 		<text name="info4" extra="true">
-			<text>redemption games or merchandisers.</text>
+			<!--text>Best-selling game : Sonic Adventure</text-->
+			<text>...</text>
 		</text>
 		<text name="info5" extra="true">
-			<text>While exact dates are debated, the golden age of arcade</text>
+			<!--text>CPU : Hitachi SH-4 32-bit RISC clocked @ 200 MHz</text-->
+			<text>...</text>
 		</text>
 		<text name="info6" extra="true">
-			<text>video games is usually defined as a period beginning sometime</text>
+			<!--text>RAM : 16MB / VRAM : 8MB</text-->
+			<text>...</text>
 		</text>
 		<text name="info7" extra="true">
-			<text>in the late 1970s and ending sometime in the mid-1980s.</text>
+			<!--text>Video : 100 MHz PowerVR2 (integrated with the system's ASIC)</text-->
+			<text>...</text>
 		</text>
 		<text name="info8" extra="true">
-			<text>Excluding a brief resurgence in the early 1990s, the arcade</text>
+			<!--text>Resolution : 640×480 pixels</text-->
+			<text>...</text>
 		</text>
 		<text name="info9" extra="true">
-			<text>industry subsequently declined in the Western hemisphere as</text>
+			<!--text>Sound : Yamaha AICA[139] sound processor @ 67 MHz</text-->
+			<text>...</text>
 		</text>
 		<text name="info10" extra="true">
-			<text>competing home video game consoles increased in their graphics</text>
-		</text>
-		<text name="info11" extra="true">
-			<text>and game-play capability and decreased in cost.</text>
+			<!--text>VMU size : 128kB</text-->
+			<text>...</text>
 		</text>
 
+		<!--image name="background" extra="true">
+			<path>./../background_wheel.png</path>
+		</image-->
+
+		<image name="logo">
+			<path>./../_inc/logo_right.png</path>
+		</image>
+
+		<image name="logo" region="eu">
+			<path>./../_inc/logo_right.png</path>
+		</image>
+
+		<image name="logo" region="us">
+			<path>./../_inc/logo_right.png</path>
+		</image>
+
+		<image name="logo" region="jp">
+			<path>./../_inc/logo_right.png</path>
+		</image>
+
 	</view>
-	
+
 	<view name="basic, detailed">
-	
+
 		<image name="controller" extra="true">
 			<pos>.985 .905</pos>
 		</image>
-		
+
+		<!--image name="background_right" extra="true">
+			<path>./../background_gamelist_right.png</path>
+		</image-->
+
+		<image name="logo">
+			<path>./../logo_right.png</path>
+		</image>
+		<image name="logo" region="eu">
+			<path>./../logo_right.png</path>
+		</image>
+		<image name="logo" region="us">
+			<path>./../logo_right.png</path>
+		</image>
+		<image name="logo" region="jp">
+			<path>./../logo_right.png</path>
+		</image>
+
+		<image name="controller" extra="true">
+			<path>./../controller.png</path>
+		</image>
+		<image name="controller" extra="true" region="eu">
+			<path>./../controller.png</path>
+		</image>
+		<image name="controller" extra="true" region="jp">
+			<path>./../controller.png</path>
+		</image>
+		<image name="controller" extra="true" region="us">
+			<path>./../controller.png</path>
+		</image>
+
+		<!--image name="background" extra="true">
+			<path>./../background_gamelist_left.png</path>
+		</image-->
+
 	</view>
-	
+
 </theme>

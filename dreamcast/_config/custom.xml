@@ -3,7 +3,7 @@
 	<formatVersion>4</formatVersion>
 
 	<view name="system">
-	
+
 		<text name="info1" extra="true">
 			<text>Manufacturer : Sega</text>
 		</text>
@@ -34,16 +34,79 @@
 		<text name="info10" extra="true">
 			<text>VMU size : 128kB</text>
 		</text>
-		
+
+		<!--image name="background" extra="true">
+			<path>./../background_wheel.png</path>
+		</image-->
+
+		<image name="logo">
+			<path>./../_inc/logo_right.png</path>
+		</image>
+
+		<image name="logo" region="eu">
+			<path>./../_inc/logo_right_eu.png</path>
+		</image>
+
+		<image name="logo" region="us">
+			<path>./../_inc/logo_right_us.png</path>
+		</image>
+
+		<image name="logo" region="jp">
+			<path>./../_inc/logo_right_jp.png</path>
+		</image>
+
 	</view>
-	
+
 	<view name="basic, detailed">
-	
+
 		<image name="controller" extra="true">
 			<pos>.955 .915</pos>
 			<maxSize>.09 1</maxSize>
 		</image>
-		
+
+		<!--image name="background_right" extra="true">
+			<path>./../background_gamelist_right.png</path>
+		</image-->
+
+		<image name="logo">
+			<path>./../logo_right.png</path>
+		</image>
+		<image name="logo" region="eu">
+			<path>./../logo_right_eu.png</path>
+		</image>
+		<image name="logo" region="us">
+			<path>./../logo_right_us.png</path>
+		</image>
+		<image name="logo" region="jp">
+			<path>./../logo_right_jp.png</path>
+		</image>
+
+		<image name="controller" extra="true">
+			<path>./../controller.png</path>
+		</image>
+		<image name="controller" extra="true" region="eu">
+			<path>./../controller_eu.png</path>
+		</image>
+		<image name="controller" extra="true" region="jp">
+			<path>./../controller_jp.png</path>
+		</image>
+		<image name="controller" extra="true" region="us">
+			<path>./../controller_us.png</path>
+		</image>
+
+		<!--image name="background" extra="true">
+			<path>./../background_gamelist_left.png</path>
+		</image-->
+
 	</view>
-	
+
+	<view name="detailed">
+
+		<rating name="md_rating">
+			<filledPath>./../icon_filled.png</filledPath>
+			<unfilledPath>./../icon_empty.png</unfilledPath>
+		</rating>
+
+	</view>
+
 </theme>
