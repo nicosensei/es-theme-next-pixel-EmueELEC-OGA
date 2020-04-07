@@ -1,0 +1,16 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<view name="basic, detailed">
+
+		<image name="controller" extra="true">
+			<pos>.976 .905</pos>
+		</image>
+		<image name="controller" extra="true" region="jp">
+			<pos>.94 .905</pos>
+		</image>
+
+	</view>
+
+</theme>

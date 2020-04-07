@@ -13,7 +13,7 @@
 	<include subset="systemview" name="Horizontal">./systemviews/horizontal_common.xml</include>
 	<include subset="systemview" name="Horizontal legacy">./systemviews/horizontal_legacy_common.xml</include>
 
-	<include subset="gamelistview" name="1-standard">./gamelistviews/no_description.xml</include>
-	<include subset="gamelistview" name="2-picture only">./gamelistviews/picture_only.xml</include>
+	<include subset="gamelistview" name="1-picture only">./gamelistviews/picture_only.xml</include>
+	<include subset="gamelistview" name="2-standard">./gamelistviews/no_description.xml</include>
 
 </theme>
