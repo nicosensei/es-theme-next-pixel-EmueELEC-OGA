@@ -60,7 +60,7 @@
 			<alignment>left</alignment>
 			<horizontalMargin>.12</horizontalMargin>
 			<selectorImagePath>./../arts/gamelist_textlist_selector_background.png</selectorImagePath>
-			<fontSize>.026</fontSize>
+			<fontSize>.032</fontSize>
 			<fontPath>./../data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
 			<zIndex>20</zIndex>
 		</textlist>
