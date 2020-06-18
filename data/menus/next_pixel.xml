@@ -10,7 +10,7 @@
 		</menuText>
 
 		<menuText name="menutext">
-			<fontSize>.045</fontSize>
+			<fontSize>.042</fontSize>
 			<color>ffffffff</color>
 			<separatorColor>ffffffff</separatorColor>
 			<selectorColor>ffffffff</selectorColor>
