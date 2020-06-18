@@ -10,7 +10,7 @@
 		</menuText>
 
 		<menuText name="menutext">
-			<fontSize>.035</fontSize>
+			<fontSize>.045</fontSize>
 			<color>ffffffff</color>
 			<separatorColor>ffffffff</separatorColor>
 			<selectorColor>ffffffff</selectorColor>
@@ -18,12 +18,12 @@
 		</menuText>
 
 		<menuTextSmall name="menutextsmall">
-			<fontSize>.028</fontSize>
+			<fontSize>.035</fontSize>
 			<color>ffffffff</color>
 		</menuTextSmall>
 
 		<menuText name="menutitle">
-			<fontSize>.04</fontSize>
+			<fontSize>.06</fontSize>
 			<color>ffffffff</color>
 		</menuText>
 
